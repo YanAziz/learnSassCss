@@ -1,0 +1,64 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #f7fafc;
+  height: 50px;
+}
+.navbar a {
+  float: left;
+  color: #4a5568;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.navbar a img {
+  height: 30px;
+  width: 145px;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  padding: 10px 20px;
+}
+.navbar .right {
+  float: right;
+  width: auto;
+  display: block;
+  padding: 5px;
+}
+
+.header {
+  background-color: #3c366b;
+  color: #f7fafc;
+  height: 150px;
+}
+
+.about {
+  background-color: #f7fafc;
+  color: #3c366b;
+  height: 100px;
+}
+
+.product {
+  background-color: #e74c3c;
+  color: #f7fafc;
+  height: 100px;
+}
+
+.contact {
+  background-color: #f7fafc;
+  color: #4a5568;
+  height: 100px;
+}
+
+.footer {
+  background-color: #4a5568;
+  color: #f7fafc;
+  height: 75px;
+}
+
+/*# sourceMappingURL=css-output.css.map */

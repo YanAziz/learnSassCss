@@ -1,0 +1,63 @@
+$light-color: #f7fafc;
+$indigo-color: #3c366b;
+$gray-color: #4a5568;
+$red-color: #e74c3c;
+$light-gray: #ddd;
+$black-color: black;
+$font-stack: Helvetica, sans-serif;
+body {
+  font: 100% $font-stack;
+  margin: 0;
+}
+.navbar {
+  background-color: $light-color;
+  height: 50px;
+  a {
+    float: left;
+    color: $gray-color;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    img {
+      height: 30px;
+      width: 145px;
+    }
+  }
+  a:hover {
+    background-color: $light-gray;
+    color: $black-color;
+    padding: 10px 20px;
+  }
+  .right {
+    float: right;
+    width: auto;
+    display: block;
+    padding: 5px;
+  }
+}
+.header {
+  background-color: $indigo-color;
+  color: $light-color;
+  height: 150px;
+}
+.about {
+  background-color: $light-color;
+  color: $indigo-color;
+  height: 100px;
+}
+.product {
+  background-color: $red-color;
+  color: $light-color;
+  height: 100px;
+}
+.contact {
+  background-color: $light-color;
+  color: $gray-color;
+  height: 100px;
+}
+.footer {
+  background-color: $gray-color;
+  color: $light-color;
+  height: 75px;
+}
